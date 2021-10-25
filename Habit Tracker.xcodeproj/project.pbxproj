@@ -14,6 +14,8 @@
 		B6CC7B6B2726D5EF00B7EDCA /* Habit_TrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CC7B6A2726D5EF00B7EDCA /* Habit_TrackerTests.swift */; };
 		B6CC7B752726D5EF00B7EDCA /* Habit_TrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CC7B742726D5EF00B7EDCA /* Habit_TrackerUITests.swift */; };
 		B6CC7B772726D5EF00B7EDCA /* Habit_TrackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CC7B762726D5EF00B7EDCA /* Habit_TrackerUITestsLaunchTests.swift */; };
+		B6CC7B842726D6AC00B7EDCA /* AddHabitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CC7B832726D6AC00B7EDCA /* AddHabitView.swift */; };
+		B6CC7B862726D70600B7EDCA /* DataType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CC7B852726D70600B7EDCA /* DataType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		B6CC7B702726D5EF00B7EDCA /* Habit TrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Habit TrackerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6CC7B742726D5EF00B7EDCA /* Habit_TrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Habit_TrackerUITests.swift; sourceTree = "<group>"; };
 		B6CC7B762726D5EF00B7EDCA /* Habit_TrackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Habit_TrackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B6CC7B832726D6AC00B7EDCA /* AddHabitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddHabitView.swift; sourceTree = "<group>"; };
+		B6CC7B852726D70600B7EDCA /* DataType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 			children = (
 				B6CC7B592726D5E900B7EDCA /* Habit_TrackerApp.swift */,
 				B6CC7B5B2726D5E900B7EDCA /* ContentView.swift */,
+				B6CC7B832726D6AC00B7EDCA /* AddHabitView.swift */,
+				B6CC7B852726D70600B7EDCA /* DataType.swift */,
 				B6CC7B5D2726D5EE00B7EDCA /* Assets.xcassets */,
 				B6CC7B5F2726D5EE00B7EDCA /* Preview Content */,
 			);
@@ -258,7 +264,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B6CC7B5C2726D5E900B7EDCA /* ContentView.swift in Sources */,
+				B6CC7B862726D70600B7EDCA /* DataType.swift in Sources */,
 				B6CC7B5A2726D5E900B7EDCA /* Habit_TrackerApp.swift in Sources */,
+				B6CC7B842726D6AC00B7EDCA /* AddHabitView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
